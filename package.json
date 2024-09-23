@@ -1,14 +1,13 @@
 {
   "name": "portfolio-2024",
-  "homepage":"https://portfolio.basiaszafraniec.dk",
+  "homepage": "https://portfolio.basiaszafraniec.dk",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "build": "next build && next export",
-    "export": "next export",
-    "deploy": "gh-pages -d dist"
+    "build": "next build", 
+    "deploy": "gh-pages -d out" 
   },
   "dependencies": {
     "lil-gui": "0.16.0",
@@ -23,3 +22,4 @@
     "gh-pages": "^6.1.1"
   }
 }
+
