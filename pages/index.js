@@ -1,10 +1,17 @@
+import Background from "./background-wave.js";
+import Portfolio from "./portfolio.js";
+
 export default function Index() {
     return (
         <div>
-            <h1>
-                Basia
-            </h1>
+            <Background />
+            <div className="container-main">
+                <div className="border">
+                </div>
+                <Portfolio/>
+            </div>
         </div>
-    )
 
+
+    )
 }
