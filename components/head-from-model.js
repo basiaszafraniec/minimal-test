@@ -16,7 +16,7 @@ export function createHeadScene(sceneHead) {
         resolve(model);  // Resolve with the loaded model
       },
       function (xhr) {
-        // console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+        console.log((xhr.loaded / xhr.total * 100) + '% loaded');
       },
       function (error) {
         console.error('An error occurred while loading the model', error);

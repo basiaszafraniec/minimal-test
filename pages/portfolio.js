@@ -31,16 +31,16 @@ export default function Portfolio() {
                     <h1>Slidemania</h1>
                     <div className="card-inner">
                         <div>
-                            <a href="suwmania.basiaszafraniec.dk">
+                            <a url="suwmania.basiaszafraniec.dk">
                                 <video src="suwmania-480px.mov" autoPlay muted loop>
                                 </video>
                             </a>
-                            <a href="suwmania.basiaszafraniec.dk">
+                            <a url="suwmania.basiaszafraniec.dk">
                                 <button className="nav_btn">
                                     try to beat my score
                                 </button>
                             </a>
-                            <a>github</a>
+                            <button className="nav_btn"><img src="github-logo.png" className="logo"></img></button>
 
                         </div>
 
