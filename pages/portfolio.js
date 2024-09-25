@@ -12,9 +12,12 @@ export default function Portfolio() {
                     <button className="nav_btn">
                         about me
                     </button>
-                    <button className="nav_btn">
-                        contact me
-                    </button>
+                    <a target="blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=basia.szafraniec@gmail.com&su=Hey%20Basia"> 
+                        <button className="nav_btn">
+                            contact me
+                        </button>
+                    </a>
+
 
                 </div>
             </div>
