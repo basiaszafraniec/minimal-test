@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
 
-
+:root{
+  
+}
 * {
   margin: 0;
   padding: 0;
   color: white;
   font-family: 'Fira Code', monospace;
   scroll-behavior: smooth;
+  transition: 1s;
+
+}
+
+ul {
+  padding-left: 2rem;
 }
 
 .webgl {
@@ -45,19 +53,38 @@ a:visited {
 }
 
 @media only screen and (max-width:600px) {
-  .border, .card-container, .scrollable {
+
+  .border,
+  .card-container,
+  .scrollable {
     width: 90vw;
     height: 90vh;
   }
-  .name-title h1{
+
+  .name-title h1 {
     font-size: 2rem;
+  }
+
+  .card-inner div {
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
   }
 }
 
 @media only screen and (min-width:600px) {
-  .border, .card-container, .scrollable {
+
+  .border,
+  .card-container,
+  .scrollable {
     width: 95vw;
     height: 90vh;
+  }
+
+  .card-inner div {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
   }
 }
 
@@ -70,13 +97,15 @@ a:visited {
   /* filter: blur(4px); */
 
 }
-.scrollable{
+
+.scrollable {
   overflow: hidden;
   position: fixed;
   overflow-y: auto;
   overflow-x: hidden;
 }
-.blur{
+
+.blur {
   position: absolute;
   width: inherit;
   height: inherit;
@@ -116,7 +145,7 @@ a:visited {
   }
 }
 
-.name-title{
+.name-title {
   padding: 1rem;
   height: 100vh;
   width: 100vw;
@@ -125,7 +154,8 @@ a:visited {
   align-items: baseline;
   flex-direction: column;
 }
-.name-title h1{
+
+.name-title h1 {
   font-size: 4rem;
 }
 
@@ -140,6 +170,7 @@ a:visited {
 .card {
   /* position: relative; */
   width: 80vw;
+  max-height: 90vh;
   /* height: 50vh; */
   margin: 2rem;
   background-color: rgba(20, 20, 20, .5);
@@ -152,16 +183,43 @@ a:visited {
   align-items: center;
 }
 
-.card-inner{
-  display: grid;
-  grid-template-columns: 2fr 3fr;
-  height: 100%;
-}
-.card video {
-  max-width: 90%;
-  border-radius: 10px;
-}
-.logo{
-  max-height: inherit;
+.card h1 {
+  margin-bottom: 2rem;
 }
 
+.card-inner {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: 2fr 3fr; */
+  height: 100%;
+
+}
+
+.portf-left {
+  align-items: center;
+  justify-content: flex-start;
+}
+.portf-left div {
+  margin-bottom: 0;
+}
+.portf-left a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card video {
+  max-width: 75%;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  max-height: 1.5rem;
+  padding-top: 1rem;
+}
+
+.text-right>* {
+  margin-bottom: 1rem;
+}
