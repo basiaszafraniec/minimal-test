@@ -8,7 +8,7 @@ import { GammaCorrectionShader } from "three/examples/jsm/shaders/GammaCorrectio
 import { ShaderPass } from "three/examples/jsm/postprocessing/ShaderPass.js";
 import { RGBShiftShader } from "three/examples/jsm/shaders/RGBShiftShader.js";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass.js";
-import { createHeadScene } from "../components/head-from-model.js";
+import CreateHeadScene from "../components/head-from-model.jsx";
 
 const Background = () => {
   const mountRef = useRef(null);
@@ -299,7 +299,7 @@ const Background = () => {
         );
       }
     }
-    createHeadScene(sceneHead).then((model) => {
+    CreateHeadScene(sceneHead).then((model) => {
       headModelRef.current = model;  // Save the loaded model
     });
 

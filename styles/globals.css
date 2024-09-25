@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
 
-:root{
-  
-}
+:root {}
+
 * {
   margin: 0;
   padding: 0;
@@ -86,6 +85,9 @@ a:visited {
     flex-direction: column;
     max-width: 50%;
   }
+  .name-title h1 {
+    font-size: 4rem;
+  }
 }
 
 .border {
@@ -113,21 +115,15 @@ a:visited {
   filter: blur(4px); */
 }
 
-.nav {
+nav {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   position: fixed;
   z-index: 100;
-
-
 }
 
-.border:hover {
-  transition: 1s;
-}
-
-.nav_btn {
+.nav-btn {
   background-color: rgba(255, 255, 255, 0);
   color: #fff;
   border: none;
@@ -155,9 +151,6 @@ a:visited {
   flex-direction: column;
 }
 
-.name-title h1 {
-  font-size: 4rem;
-}
 
 .card-container {
   position: absolute;
@@ -199,9 +192,11 @@ a:visited {
   align-items: center;
   justify-content: flex-start;
 }
+
 .portf-left div {
   margin-bottom: 0;
 }
+
 .portf-left a {
   text-decoration: none;
   display: flex;

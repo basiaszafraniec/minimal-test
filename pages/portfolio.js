@@ -3,24 +3,22 @@ export default function Portfolio() {
 
     return (
 
-        <div className="scrollable">
-            <div className="nav">
-                <button className="nav_btn">
+        <div>
+            {/* <div className="nav">
+                <button className="nav-btn">
                     portfolio
                 </button>
                 <div>
-                    <button className="nav_btn">
+                    <button className="nav-btn">
                         about me
                     </button>
                     <a target="blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=basia.szafraniec@gmail.com&su=Hey%20Basia"> 
-                        <button className="nav_btn">
+                        <button className="nav-btn">
                             contact me
                         </button>
                     </a>
-
-
-                </div>
-            </div>
+                </div> */}
+            {/* </div> */}
             <div className="name-title">
                 <div>
                     <h1>Basia <br />Szafraniec</h1>
@@ -40,7 +38,7 @@ export default function Portfolio() {
                             </a>
                             <div>
                                 <a href="https://suwmania.basiaszafraniec.dk" target="blank">
-                                    <button className="nav_btn">
+                                    <button className="nav-btn">
                                         try to beat my score
                                     </button>
                                 </a>
@@ -72,12 +70,12 @@ export default function Portfolio() {
                     <div className="card-inner">
                         <div className="portf-left">
                             <a href="https://suwmania.basiaszafraniec.dk" target="blank">
-                                <video src="suwmania-480px.mov" autoPlay muted loop>
+                                <video src="3d-room.mov" autoPlay muted loop>
                                 </video>
                             </a>
                             <div>
                                 <a href="https://suwmania.basiaszafraniec.dk" target="blank">
-                                    <button className="nav_btn">
+                                    <button className="nav-btn">
                                         try to beat my score
                                     </button>
                                 </a>
@@ -90,8 +88,7 @@ export default function Portfolio() {
                         </div>
 
                         <div className="text-right">
-                            <p>For my first JavaScript app I really wanted to try something fun. I wanted to make an inline version of a little toy I used to play with as a kid. I started with learning sme basic HTML and CSS as well as some simple JS functions. I quickly realised this was gonna be way more complicated than I expected, and in the end I had to learn some concepts that felt more advanced at the time, but I really did enjoy that process :)
-                                I hope to revisit that project soon and see how I could improve it now with some extra knowledge. </p>
+                            <p>sdcsdc</p>
                             <h2>What I learned</h2>
                             <ul>
                                 <li>HTML, PHP, JavaScript</li>
