@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
 
 :root {
-  --cardBackground: rgba(20, 20, 20, 0.5);
+  --cardBackground: rgba(0, 0, 0, 0.5);
   --myWhite: #fff
 }
 
@@ -88,6 +88,7 @@ a:visited {
     flex-direction: column;
     max-width: 50%;
   }
+
   .name-title h1 {
     font-size: 4rem;
   }
@@ -226,15 +227,16 @@ nav {
 /* CONTACT */
 
 .contact-div {
-  width: 100%;
-  height: 100%;
+  width: inherit;
+  height: inherit;
   display: flex;
   flex-direction: column;
   position: fixed;
   justify-content: center;
   align-items: center;
 }
-.contact-inner{
+
+.contact-inner {
   width: 50%;
   height: 40%;
   background-color: var(--cardBackground);
@@ -246,7 +248,38 @@ nav {
   justify-content: center;
   align-items: center;
 }
-.logos{
+
+.logos {
   display: flex;
-  /* flex-direction: column; */
+}
+
+/* ABOUT ME */
+.about-div {
+  width: inherit;
+  height: inherit;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bio {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hard-skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.hard-skills li {
+  padding: 0rem;
 }
