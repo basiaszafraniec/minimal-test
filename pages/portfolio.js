@@ -42,7 +42,7 @@ export default function Portfolio() {
                                         try to beat my score
                                     </button>
                                 </a>
-                                <a href="https://github.com/basiaszafraniec" target="blank">
+                                <a href="https://github.com/basiaszafraniec/suwmaniaB" target="blank">
                                     <img src="github-logo-long-white.png" className="logo"></img>
                                 </a>
 
@@ -69,17 +69,17 @@ export default function Portfolio() {
                     <h1>little three.js test room</h1>
                     <div className="card-inner">
                         <div className="portf-left">
-                            <a href="https://suwmania.basiaszafraniec.dk" target="blank">
+                            {/* <a href="https://suwmania.basiaszafraniec.dk" target="blank"> */}
                                 <video src="3d-room.mov" autoPlay muted loop>
                                 </video>
-                            </a>
+                            {/* </a> */}
                             <div>
-                                <a href="https://suwmania.basiaszafraniec.dk" target="blank">
+                                {/* <a href="https://suwmania.basiaszafraniec.dk" target="blank">
                                     <button className="nav-btn">
                                         try to beat my score
                                     </button>
-                                </a>
-                                <a href="https://github.com/basiaszafraniec" target="blank">
+                                </a> */}
+                                <a href="https://github.com/basiaszafraniec/33d_test" target="blank">
                                     <img src="github-logo-long-white.png" className="logo"></img>
                                 </a>
 
@@ -88,14 +88,10 @@ export default function Portfolio() {
                         </div>
 
                         <div className="text-right">
-                            <p>sdcsdc</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p>
                             <h2>What I learned</h2>
                             <ul>
-                                <li>HTML, PHP, JavaScript</li>
-                                <li>PHP</li>
-                                <li>Http requests</li>
-                                <li>DOM manipulation</li>
-                                <li>Asynchronous functions</li>
+                                <li>Three.js basics</li>
                             </ul>
                         </div>
                     </div>
