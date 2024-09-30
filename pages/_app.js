@@ -11,7 +11,7 @@ import Layout from '../components/layout.jsx';
 import Portfolio from './portfolio.js';
 import Contact from './contact.js';
 import About from './about.js';
-import Background from './background-wave.js';
+import Background from '../components/background-wave.jsx';
 
 const App = () => {
   const [content, setContent] = useState(<Portfolio />); // Default to Portfolio

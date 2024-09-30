@@ -69,7 +69,10 @@ export default function Portfolio() {
                     <h1>little three.js test room</h1>
                     <div className="card-inner">
                         <div className="portf-left">
+                                <video src="3d-room.mov" autoPlay muted loop>
+                                </video>
                             <div>
+
                                 <a href="https://github.com/basiaszafraniec/33d_test" target="blank">
                                     <img src="github-logo-long-white.png" className="logo"></img>
                                 </a>

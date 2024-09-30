@@ -1,4 +1,4 @@
-import Background from "./background-wave.js";
+import Background from "../components/background-wave.jsx";
 import Portfolio from "./portfolio.js";
 import Link from 'next/link';
 
