@@ -125,6 +125,7 @@ nav {
   justify-content: space-between;
   position: fixed;
   z-index: 100;
+  width: inherit;
 }
 
 .nav-btn {
@@ -237,12 +238,13 @@ nav {
 }
 
 .contact-inner {
-  width: 50%;
+  min-width: 50%;
+  padding: 1rem;
   height: 40%;
   background-color: var(--cardBackground);
   border: solid var(--myWhite) 2px;
   backdrop-filter: blur(7px);
-  margin-top: 6rem;
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -277,8 +279,6 @@ nav {
   flex-direction: column;
   align-items: center;
 }
-
-
 
 .hard-skills li {
   padding: 0rem;

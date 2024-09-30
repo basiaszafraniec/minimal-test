@@ -6,8 +6,11 @@ export default function Layout({ children }) {
             <div className="scrollable">
                 <nav>
                     <button className="nav-btn" onClick={() => children.changeContent('portfolio')}>Portfolio</button>
-                    <button className="nav-btn" onClick={() => children.changeContent('contact')}>Contact Me</button>
-                    <button className="nav-btn" onClick={() => children.changeContent('about')}>About Me</button>
+                    <div>
+                        <button className="nav-btn" onClick={() => children.changeContent('about')}>About Me</button>
+                        <button className="nav-btn" onClick={() => children.changeContent('contact')}>Contact Me</button>
+                    </div>
+
                 </nav>
                 {children.content}
             </div>

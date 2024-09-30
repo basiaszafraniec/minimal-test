@@ -69,16 +69,7 @@ export default function Portfolio() {
                     <h1>little three.js test room</h1>
                     <div className="card-inner">
                         <div className="portf-left">
-                            {/* <a href="https://suwmania.basiaszafraniec.dk" target="blank"> */}
-                                <video src="3d-room.mov" autoPlay muted loop>
-                                </video>
-                            {/* </a> */}
                             <div>
-                                {/* <a href="https://suwmania.basiaszafraniec.dk" target="blank">
-                                    <button className="nav-btn">
-                                        try to beat my score
-                                    </button>
-                                </a> */}
                                 <a href="https://github.com/basiaszafraniec/33d_test" target="blank">
                                     <img src="github-logo-long-white.png" className="logo"></img>
                                 </a>
@@ -96,11 +87,36 @@ export default function Portfolio() {
                         </div>
                     </div>
                 </div>
+                <div className="card">
+                    <h1>python space game</h1>
+                    <div className="card-inner">
+                        <div className="portf-left">
+                                <video src="stars-game.mov" autoPlay muted loop>
+                                </video>
+                            <div>
+                                <a href="https://github.com/basiaszafraniec/stars_game2" target="blank">
+                                    <img src="github-logo-long-white.png" className="logo"></img>
+                                </a>
 
-                <div className="card"><h2>3d room</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p></div>
+                            </div>
+
+                        </div>
+
+                        <div className="text-right">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p>
+                            <h2>What I learned</h2>
+                            <ul>
+                                <li>Python classes</li>
+                                <li>PyGame</li>
+                                <li>Animation Loops</li>
+                                <li>Numpy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <div className="card"><h2>pixels</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p></div>
                 <div className="card"><h2>blender stuff</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p></div>
-                <div className="card"><h2>starts game</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p></div>
                 <div className="card"><h2>cube sim</h2></div>
             </div>
 
