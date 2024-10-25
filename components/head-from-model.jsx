@@ -11,7 +11,7 @@ export default function CreateHeadScene(sceneHead) {
       function (gltf) {
         const model = gltf.scene;
         model.position.set(0, 0.4, 0);
-        model.scale.set(2,2,2);
+        model.scale.set(3,3,3);
         sceneHead.add(model);  // Add model to its own scene
         resolve(model);  // Resolve with the loaded model
       },

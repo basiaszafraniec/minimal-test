@@ -1,11 +1,5 @@
 import '../styles/globals.css'
 
-// function MyApp({ Component, pageProps }) {
-//   return <Component {...pageProps} />
-// }
-
-// export default MyApp
-
 import React, { useState } from 'react';
 import Layout from '../components/layout.jsx';
 import Portfolio from './portfolio.js';

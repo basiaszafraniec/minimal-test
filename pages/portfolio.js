@@ -4,21 +4,6 @@ export default function Portfolio() {
     return (
 
         <div>
-            {/* <div className="nav">
-                <button className="nav-btn">
-                    portfolio
-                </button>
-                <div>
-                    <button className="nav-btn">
-                        about me
-                    </button>
-                    <a target="blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=basia.szafraniec@gmail.com&su=Hey%20Basia"> 
-                        <button className="nav-btn">
-                            contact me
-                        </button>
-                    </a>
-                </div> */}
-            {/* </div> */}
             <div className="name-title">
                 <div>
                     <h1>Basia <br />Szafraniec</h1>
@@ -69,18 +54,14 @@ export default function Portfolio() {
                     <h1>little three.js test room</h1>
                     <div className="card-inner">
                         <div className="portf-left">
-                                <video src="3d-room.mov" autoPlay muted loop>
-                                </video>
+                            <video src="3d-room.mov" autoPlay muted loop>
+                            </video>
                             <div>
-
                                 <a href="https://github.com/basiaszafraniec/33d_test" target="blank">
                                     <img src="github-logo-long-white.png" className="logo"></img>
                                 </a>
-
                             </div>
-
                         </div>
-
                         <div className="text-right">
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p>
                             <h2>What I learned</h2>
@@ -94,8 +75,8 @@ export default function Portfolio() {
                     <h1>python space game</h1>
                     <div className="card-inner">
                         <div className="portf-left">
-                                <video src="stars-game.mov" autoPlay muted loop>
-                                </video>
+                            <video src="stars-game.mov" autoPlay muted loop>
+                            </video>
                             <div>
                                 <a href="https://github.com/basiaszafraniec/stars_game2" target="blank">
                                     <img src="github-logo-long-white.png" className="logo"></img>
@@ -118,9 +99,12 @@ export default function Portfolio() {
                     </div>
                 </div>
 
-                <div className="card"><h2>pixels</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p></div>
+                {/* <div className="card"><h2>pixels</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p></div>
                 <div className="card"><h2>blender stuff</h2><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum voluptatibus repudiandae eaque minus a.</p></div>
-                <div className="card"><h2>cube sim</h2></div>
+                <div className="card"><h2>cube sim</h2></div> */}
+                <a>
+                    <h2>Reach out!</h2>
+                </a>
             </div>
 
         </div>

@@ -1,32 +1,37 @@
 export default function About() {
   return (
-    <div className="about-div">
+    <div>
 
-      <div className="bio">
-        <h1>About Me</h1>
+      <div className="bio card">
+        <img src="me.png" className="me-img"></img>
         <div>
-          <img></img>
-          <p>Still working on this section sorry! But trust me it's gonna be super cool and you will for sure want to hire me!</p>
+          <h1>About Me</h1>
+          <hr></hr>
+          <p>Hello!<br></br>Behold. Your wait is over, you have found me. I am your new intern. I can do anything you need me to - I'll code I'll research I'll make you laugh. That's it, looking forward to hearing from you</p>
         </div>
       </div>
-      <div>
-        <ul className="hard-skills">
+      <div className="skills card">
+        <h1>HARD</h1>
+        <ul>
           <li>HTML, CSS</li>
-          {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum</p> */}
           <li>JavaScript</li>
-          {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum</p> */}
           <li>React</li>
-          {/* <p>pumpala lumpa de pumpa la ;umpa</p> */}
           <li>Three.js</li>
-          {/* <p>bxhsbxhb hsbxhsb hbshbdc hbshdbc hdcbsd hdbchs</p> */}
           <li>Python</li>
-          {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum</p> */}
           <li>Blender</li>
-          {/* <p>bxhsbxhb hsbxhsb hbshbdc hbshdbc hdcbsd hdbchs</p> */}
           <li>Figma</li>
-          {/* <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus corporis saepe dolore nobis quisquam quis enim, cumque odit ipsa magnam facilis culpa vel numquam nostrum</p> */}
           <li>Reasearch Methods</li>
-          {/* <p>bxhsbxhb hsbxhsb hbshbdc hbshdbc hdcbsd hdbchs</p> */}
+          <li>UX Design</li>
+        </ul>
+      </div>
+      <div className="skills card">
+        <h1>
+          soft
+        </h1>
+        <ul>
+          <li>cool</li>
+          <li>hot</li>
+          <li>funny</li>
         </ul>
       </div>
 
